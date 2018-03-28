@@ -7,8 +7,9 @@
 //
 
 import XCTest
+@testable import AKSwiftyLoader
 
-class AKSwiftyLoaderWindow: XCTestCase {
+class AKSwiftyLoaderWindowTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -19,6 +20,4 @@ class AKSwiftyLoaderWindow: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
-    
-    
 }
