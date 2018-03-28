@@ -41,6 +41,10 @@
                 <constraint firstItem="9fp-OQ-1Yc" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="XdS-jN-GyJ"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="backgroundView" destination="9fp-OQ-1Yc" id="nfp-R5-DYt"/>
+                <outlet property="loaderView" destination="3Pe-8W-GDS" id="vRu-uN-J59"/>
+            </connections>
             <point key="canvasLocation" x="46.5" y="214.5"/>
         </view>
     </objects>

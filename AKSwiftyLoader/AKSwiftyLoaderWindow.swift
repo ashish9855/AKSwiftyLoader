@@ -10,5 +10,6 @@ import UIKit
 
 class AKSwiftyLoaderWindow: UIView {
 
-    
+    @IBOutlet weak var backgroundView: UIView!
+    @IBOutlet weak var loaderView: UIView!
 }
