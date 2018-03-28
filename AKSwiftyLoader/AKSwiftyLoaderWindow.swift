@@ -17,7 +17,7 @@ class AKSwiftyLoaderWindow: UIView {
         super.init(frame: frame)
         setUpView()
     }
-    
+
     internal required init?(coder aDecoder: NSCoder) {
         // For use in Interface Builder
         super.init(coder: aDecoder)
@@ -30,7 +30,7 @@ class AKSwiftyLoaderWindow: UIView {
         addSubview(contentView)
     }
     
-    private func getContentView() -> UIView {
+    internal func getContentView() -> UIView {
         
         let bundle = Bundle(for: type(of: self))
         let nib = UINib(nibName: String(describing: AKSwiftyLoaderWindow.self), bundle: bundle)
