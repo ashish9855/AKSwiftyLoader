@@ -16,16 +16,28 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9fp-OQ-1Yc">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9fp-OQ-1Yc" userLabel="Background View">
                     <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Pe-8W-GDS" userLabel="Loader View">
+                            <rect key="frame" x="117.5" y="253.5" width="140" height="140"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="140" id="5kz-JV-ius"/>
+                                <constraint firstAttribute="height" constant="140" id="VI6-2y-sCS"/>
+                            </constraints>
+                        </view>
+                    </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </view>
             </subviews>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
+                <constraint firstItem="3Pe-8W-GDS" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="75Z-kM-BQC"/>
                 <constraint firstItem="9fp-OQ-1Yc" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="Fxr-Dp-WT6"/>
                 <constraint firstItem="9fp-OQ-1Yc" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="SE4-o3-l3p"/>
                 <constraint firstItem="9fp-OQ-1Yc" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Su2-wf-mDx"/>
+                <constraint firstItem="3Pe-8W-GDS" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="TR4-Ly-MK6"/>
                 <constraint firstItem="9fp-OQ-1Yc" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="XdS-jN-GyJ"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
