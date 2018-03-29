@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+protocol LoaderProtocol {
+    
+    func hide()
+    func show()
+}
