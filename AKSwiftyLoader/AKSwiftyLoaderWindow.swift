@@ -37,3 +37,4 @@ class AKSwiftyLoaderWindow: UIView {
         return nib.instantiate(withOwner: self, options: nil).first as! UIView
     }
 }
+
