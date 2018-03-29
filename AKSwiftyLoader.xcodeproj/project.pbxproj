@@ -13,6 +13,7 @@
 		5FA166E6206BA954004A097E /* AKSwiftyLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FA166DC206BA954004A097E /* AKSwiftyLoader.framework */; };
 		5FA166EB206BA954004A097E /* AKSwiftyLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA166EA206BA954004A097E /* AKSwiftyLoaderTests.swift */; };
 		5FA166ED206BA954004A097E /* AKSwiftyLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FA166DF206BA954004A097E /* AKSwiftyLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FB03916206D1396003E0678 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB03915206D1396003E0678 /* Loader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		5FA166E5206BA954004A097E /* AKSwiftyLoaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AKSwiftyLoaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FA166EA206BA954004A097E /* AKSwiftyLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKSwiftyLoaderTests.swift; sourceTree = "<group>"; };
 		5FA166EC206BA954004A097E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FB03915206D1396003E0678 /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				5FA166E0206BA954004A097E /* Info.plist */,
 				5F3F0614206BBBC30086B1B8 /* AKSwiftyLoaderWindow.swift */,
 				5F3F0616206BBBDF0086B1B8 /* AKSwiftyLoaderWindow.xib */,
+				5FB03915206D1396003E0678 /* Loader.swift */,
 			);
 			path = AKSwiftyLoader;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FB03916206D1396003E0678 /* Loader.swift in Sources */,
 				5F3F0615206BBBC30086B1B8 /* AKSwiftyLoaderWindow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
