@@ -23,13 +23,13 @@ class AKSwiftyLoaderWindowTests: XCTestCase {
     
     func testThatGetsContentViewNotNil() {
         
-        let view = AKSwiftyLoaderWindow().getContentView()
+        let view = LoaderWindow().getContentView()
         XCTAssertNotNil(view, "Couldn't retrieve view from XIB")
     }
     
     func testThatChecksOutletsForView() {
         
-        let view = AKSwiftyLoaderWindow()
+        let view = LoaderWindow()
         XCTAssertNotNil(view.backgroundView, "Background View cannot be nil")
         XCTAssertNotNil(view.loaderView, "Loader View cannot be nil")
     }

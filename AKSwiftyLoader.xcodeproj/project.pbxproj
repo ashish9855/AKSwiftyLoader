@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F3F0615206BBBC30086B1B8 /* AKSwiftyLoaderWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3F0614206BBBC30086B1B8 /* AKSwiftyLoaderWindow.swift */; };
-		5F3F0617206BBBDF0086B1B8 /* AKSwiftyLoaderWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F3F0616206BBBDF0086B1B8 /* AKSwiftyLoaderWindow.xib */; };
+		5F3F0615206BBBC30086B1B8 /* LoaderWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3F0614206BBBC30086B1B8 /* LoaderWindow.swift */; };
+		5F3F0617206BBBDF0086B1B8 /* LoaderWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F3F0616206BBBDF0086B1B8 /* LoaderWindow.xib */; };
 		5F3F0619206BCA940086B1B8 /* AKSwiftyLoaderWindowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3F0618206BCA940086B1B8 /* AKSwiftyLoaderWindowTests.swift */; };
 		5FA166E6206BA954004A097E /* AKSwiftyLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FA166DC206BA954004A097E /* AKSwiftyLoader.framework */; };
 		5FA166EB206BA954004A097E /* AKSwiftyLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA166EA206BA954004A097E /* AKSwiftyLoaderTests.swift */; };
@@ -29,8 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5F3F0614206BBBC30086B1B8 /* AKSwiftyLoaderWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKSwiftyLoaderWindow.swift; sourceTree = "<group>"; };
-		5F3F0616206BBBDF0086B1B8 /* AKSwiftyLoaderWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AKSwiftyLoaderWindow.xib; sourceTree = "<group>"; };
+		5F3F0614206BBBC30086B1B8 /* LoaderWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderWindow.swift; sourceTree = "<group>"; };
+		5F3F0616206BBBDF0086B1B8 /* LoaderWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoaderWindow.xib; sourceTree = "<group>"; };
 		5F3F0618206BCA940086B1B8 /* AKSwiftyLoaderWindowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKSwiftyLoaderWindowTests.swift; sourceTree = "<group>"; };
 		5FA166DC206BA954004A097E /* AKSwiftyLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AKSwiftyLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FA166DF206BA954004A097E /* AKSwiftyLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AKSwiftyLoader.h; sourceTree = "<group>"; };
@@ -94,8 +94,8 @@
 				5F3F061A206CE2A80086B1B8 /* Protocols */,
 				5FA166DF206BA954004A097E /* AKSwiftyLoader.h */,
 				5FA166E0206BA954004A097E /* Info.plist */,
-				5F3F0614206BBBC30086B1B8 /* AKSwiftyLoaderWindow.swift */,
-				5F3F0616206BBBDF0086B1B8 /* AKSwiftyLoaderWindow.xib */,
+				5F3F0614206BBBC30086B1B8 /* LoaderWindow.swift */,
+				5F3F0616206BBBDF0086B1B8 /* LoaderWindow.xib */,
 				5FB03915206D1396003E0678 /* Loader.swift */,
 				5FB03919206D24B8003E0678 /* AKSwiftyLoader.swift */,
 			);
@@ -206,7 +206,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F3F0617206BBBDF0086B1B8 /* AKSwiftyLoaderWindow.xib in Resources */,
+				5F3F0617206BBBDF0086B1B8 /* LoaderWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,7 +227,7 @@
 				5FB0391A206D24B8003E0678 /* AKSwiftyLoader.swift in Sources */,
 				5FB03916206D1396003E0678 /* Loader.swift in Sources */,
 				5FB03918206D165B003E0678 /* LoaderProtocol.swift in Sources */,
-				5F3F0615206BBBC30086B1B8 /* AKSwiftyLoaderWindow.swift in Sources */,
+				5F3F0615206BBBC30086B1B8 /* LoaderWindow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

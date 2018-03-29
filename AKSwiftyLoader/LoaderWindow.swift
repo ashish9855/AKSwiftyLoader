@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AKSwiftyLoaderWindow: UIView {
+class LoaderWindow: UIView {
 
     @IBOutlet weak var backgroundView: UIView!
     @IBOutlet weak var loaderView: UIView!
@@ -33,7 +33,7 @@ class AKSwiftyLoaderWindow: UIView {
     internal func getContentView() -> UIView {
         
         let bundle = Bundle(for: type(of: self))
-        let nib = UINib(nibName: String(describing: AKSwiftyLoaderWindow.self), bundle: bundle)
+        let nib = UINib(nibName: String(describing: LoaderWindow.self), bundle: bundle)
         return nib.instantiate(withOwner: self, options: nil).first as! UIView
     }
 }
