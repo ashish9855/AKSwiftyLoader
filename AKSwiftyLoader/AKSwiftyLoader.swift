@@ -10,5 +10,7 @@ import Foundation
 
 class AKSwiftyLoader {
     
-    
+    private static let sharedInstance = AKSwiftyLoader()
+    private init() {} //This prevents others from using the default '()' initializer for this class.
+
 }
