@@ -10,6 +10,6 @@ import Foundation
 
 protocol LoaderProtocol {
     
-    func hide()
-    func show()
+    static func hide()
+    static func show()
 }
