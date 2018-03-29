@@ -12,3 +12,14 @@ public final class Loader {
     
     
 }
+
+extension Loader: LoaderProtocol {
+   
+    public static func hide() {
+        
+    }
+    
+    public static func show() {
+        
+    }
+}
